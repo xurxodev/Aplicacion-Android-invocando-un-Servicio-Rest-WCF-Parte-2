@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content" android:orientation="vertical"
+	android:layout_width="fill_parent">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:layout_width="fill_parent">
+		
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			android:layout_height="wrap_content" android:orientation="vertical"
+			android:layout_width="fill_parent">
+			<TextView android:layout_height="wrap_content"
+				android:layout_width="fill_parent" android:layout_weight="1"
+				android:id="@+id/CodCliente" android:textStyle="bold"   android:textSize="17dp"
+				/>
+			<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+				android:layout_height="wrap_content" android:orientation="horizontal"
+				android:layout_width="fill_parent">
+
+				<TextView android:layout_height="wrap_content"
+							android:layout_width="fill_parent" android:layout_weight="1"
+							android:id="@+id/RazonSocial" android:textStyle="bold"  android:textSize="17dp"/>   
+			</LinearLayout>
+			<TextView android:layout_height="wrap_content"
+							android:layout_width="fill_parent" android:layout_weight="1"
+							android:id="@+id/Direccion" android:textSize="15dp"/>
+			<TextView android:layout_height="wrap_content"
+							android:layout_width="fill_parent" android:layout_weight="1"
+							android:id="@+id/Telefono" android:textStyle="bold"  android:textSize="15dp"/>
+		</LinearLayout>
+	</LinearLayout>
+</LinearLayout>
